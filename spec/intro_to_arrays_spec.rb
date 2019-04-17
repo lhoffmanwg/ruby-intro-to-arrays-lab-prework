@@ -26,7 +26,7 @@ describe "working with arrays" do
       before(:each) do 
         @my_two_array = array_with_two_elements
       end 
-      
+    end
       it "creates a new array with two elements in it and returns that array" do
         expect(@my_two_array).to be_an(Array)
       end
